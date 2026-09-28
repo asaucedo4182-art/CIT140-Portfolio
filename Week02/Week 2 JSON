@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "3974523e-9f0a-420e-ad15-8dda9a37c1b0",
+  "revision": 5965,
+  "createdAt": "2026-09-28T18:59:23.304Z",
+  "exportedAt": "2026-09-28T23:41:30.581Z",
+  "learnerLabel": "Angel Saucedo",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "QA Control Review of the affected QA cell"
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": "We need to identify a custodian or clear link to original source for four out of six retrieved record sets. "
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "This would benefit QA and Engineering by giving them records they can trace. Also, Operations, as they need a reason to request later work."
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "The included work is as follows: review command-authorization ownership for the affected cell; inventory the controls used to schedule and retire its tests; document an evidence-preservation checklist; identify gaps and hand off a report for later decisions. The deliverables are as follows: one command-ownership record, one scheduling/retirement control inventory, and one evidence-preservation checklist. "
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "The excluded work is as follows: restarting or operating MR-17, changing software or schedules, deleting or modifying original records, buying a replacement robot, selecting a vendor, and extending the review to other cells."
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The available tools support the review and read-only exports. Although, access to the necessary exports is still awaiting confirmation."
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "QA must request the records, custodians then search for said records, QA and Engineering work together to review retrieved records, and finally, Operations receives the summary. Roles mentioned need their availability confirmed before work authorization."
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "Base estimate\nAnalyst 24 hours × $55/hour = $1,320\nEngineering 12 × $75 = $900\nQA 8 × $45 = $360\nOperations 4 × $60 = $240\nTotal: 48 staff hours and $2,820\n\nWhat's excluded is: equipment purchase, software license or overtime allowance."
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The eight-business-day plan assumes that the exports arrive by day 3 and the review tasks overlap and has two business days of headroom against the ten-day limit. "
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The budget is $3,000 \n\nAnalyst 24 hours across days 1–8\nEngineering 12 hours, no earlier than day 4\nQA 8 hours during days 5–7\nOperations 4 hours across days 1 and 8\n\nAccess to read-only exports is unknown. "
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "Things that may change estimate or delivery are denial of access, late exports (which delay Engineering), or QA shift reassignment. If access is denied, the team must revise the work or defer it."
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "The sponsor will check delivery and later value by assessing plan estimates, supporting evidence, and measurable outcomes before commitment. The six-request baseline showed that staff was able to retrieve six records with an average of 10 minutes per request. Only two, however, came back with an identified custodian and clear link to the original source."
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "defer"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "In this case, I believe that it is better to defer due to W02-S02, W02-S04, and W02-S05. S02 shows us the evidence-retrieval workload. Only two of six retrieved came back with an identified custodian and a clear link to the source. Four of six required a follow-up. Each of which, take an average of 10 minutes per request. S04 shows us the capacity, access, and operating limits. This source tells us that access to the necessary exports have been requested and not confirmed. Access that is denied must be revised or deferred which risks losing valuable time. S05 shows the estimate and success-measure sheet. The estimate states that the budget is $3,000. The project is estimated to take about 40-60 hours. The base 48-hour estimate reaches 48 staff hours and $2,820. Ideally, the team would finish within the estimated 48 hours, but if not, an estimated $525 would be added to the budget. I believe that it's best to wait for missing information (the four follow-ups on S02) and get back to the sponsor with better estimates. "
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "Nia and Elias should be conferred with to confirm that they are able to examine three deliverables. Then, Mara must record their feedback to the sponsor in which the sponsor will make the final decision. "
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
